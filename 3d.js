@@ -659,7 +659,7 @@ function handleResize() {
 }
 
 window.animationPressMe = function(userFunction) {
-    if (!isModal) {
+    /*if (!isModal) {
         pressMe = true;
         actions["Greeting"].setEffectiveWeight(0);
         actions["Dance"].setEffectiveWeight(0);
@@ -673,7 +673,7 @@ window.animationPressMe = function(userFunction) {
                 userFunction(); // Вызываем приходящую функцию, если она была передана
             }
         }, 8000);
-    }
+    }*/
 }
 
 window.animationDance = function() {
