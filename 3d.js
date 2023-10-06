@@ -341,7 +341,7 @@ loader.load('./public/model_.glb', function (gltf) {
     console.log(actions);
 
     // actions["Speaking"].setEffectiveWeight(1);
-    // prepareCrossFade(actions["Greeting"], actions["Speaking"]);
+    prepareCrossFade(actions["Greeting"], actions["Speaking"]);
     setTimeout(() => {
         //window.animationPressMe(() => {
             prepareCrossFade(actions["Idle"], actions["Greeting"])
@@ -353,9 +353,6 @@ loader.load('./public/model_.glb', function (gltf) {
             }, 4000);
         //})
     }, 1000)
-    setTimeout(() => {
-
-    }, 5000)
 
     // setInterval(() => {
     //     actions["Blinking"].weight = 1;
